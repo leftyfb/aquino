@@ -16,4 +16,5 @@
 *.out
 *.app
 
+# Mac junk
 .DS_Store
