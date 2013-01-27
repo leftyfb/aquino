@@ -18,9 +18,6 @@ float alertLow = 62;
 float alertHigh = 90;
 
 
-
-// ------thermistor 
-
 double Thermister(int RawADC) {
  double Temp;
  Temp = log(((10240000/RawADC) - 10000));
